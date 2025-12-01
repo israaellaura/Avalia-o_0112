@@ -8,4 +8,5 @@ COPY . /var/www/html/
 RUN docker-php-ext-install mysqli pdo pdo_mysql
 
 # Exponha a porta padrão do Apache
+
 EXPOSE 80
